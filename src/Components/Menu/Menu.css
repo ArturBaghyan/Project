@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: #3c242c;
+    width: 100%;
+
+}
+
+#li1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.li2{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    color: #f3f0fd;
+}
+.li22{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    color: #00cee3;
+}
