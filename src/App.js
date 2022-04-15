@@ -5,7 +5,7 @@ import {
   Routes}
   from 'react-router-dom';
   import Home from './Pages/HomePage/Home';
-  import About from './Pages/AboutPage/About';
+  import TaskList from './Pages/TaskListPage/TaskList';
   import Contact from './Pages/ContactPage/Contact';
   import Corona from './Pages/CoronaPage/Corona';
   import Register from "./Pages/RegisterPage/Register";
@@ -17,7 +17,7 @@ function App() {
       <Menu/>
       <Routes>
         <Route exact path="/Pages/HomePage" element={<Home />}/>
-        <Route exact path="/Pages/AboutPage" element={<About />}/>
+        <Route exact path="/Pages/TaskListPage" element={<TaskList />}/>
         <Route exact path="/Pages/ContactPage" element={<Contact />}/>
         <Route exact path="/Pages/CoronaPage" element={<Corona />}/>
         <Route  path="/Pages/RegisterPage" element={<Register />}/>
